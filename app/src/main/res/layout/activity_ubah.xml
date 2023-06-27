@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.UbahActivity"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundubah">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Ubah Data Horoscope"
+                android:textColor="@color/white"
+                android:layout_marginBottom="16dp"
+                android:textSize="26sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/et_ubah_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Horoscope"
+                android:textColor="@color/white"
+                android:textColorHint="#85FFFFFF"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"/>
+
+            <EditText
+                android:id="@+id/et_ubah_old"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Old"
+                android:textColor="@color/white"
+                android:textColorHint="#85FFFFFF"
+                android:layout_marginBottom="16dp"/>
+
+            <EditText
+                android:id="@+id/et_ubah_now"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Now"
+                android:textColor="@color/white"
+                android:textColorHint="#85FFFFFF"
+                android:layout_marginBottom="16dp"/>
+
+            <EditText
+                android:id="@+id/et_ubah_deskripsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Deskripsi Horoscope"
+                android:textColor="@color/white"
+                android:textColorHint="#85FFFFFF"
+                android:layout_marginBottom="16dp"/>
+
+            <EditText
+                android:id="@+id/et_ubah_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Link Foto Horoscope"
+                android:textColor="@color/white"
+                android:textColorHint="#85FFFFFF"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/btn_ubah_ubah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ubah"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
